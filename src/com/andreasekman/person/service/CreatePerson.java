@@ -19,7 +19,6 @@ public class CreatePerson {
       person.setPid(2);
       person.setFirstName("Gittan" );
       person.setLastName("Svensson");
-      person.setSkills("Technical Manager");
       
       entitymanager.persist(person);
       entitymanager.getTransaction( ).commit( );

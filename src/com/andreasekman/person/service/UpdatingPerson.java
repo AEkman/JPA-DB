@@ -23,7 +23,6 @@ public class UpdatingPerson {
       // Update
       person.setFirstName("Gösta");
       person.setLastName("Ekman");
-      person.setSkills("Skådespelare");
       entitymanager.getTransaction().commit();
       
       // After update

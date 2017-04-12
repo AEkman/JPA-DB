@@ -16,6 +16,5 @@ public class FindingPerson {
 	      System.out.println("Person ID = " + person.getPid());
 	      System.out.println("Person FIRSTNAME = " + person.getFirstName());
 	      System.out.println("Person LASTNAME = " + person.getLastName());
-	      System.out.println("Person SKILLS = " + person.getSkills());
 	}
 }
